@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.flex-fill {
+    flex: 1;
+    margin-bottom: 70px;
+}
+
+.tittle {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+footer {
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.album .container {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    justify-content: center;
+}
+
+.movie-description {
+    max-height: 4.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    color: #888888 !important;
+    font-size: 15px !important;
+}
+
+.favorite-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 15px;
+}
+
+.favorite-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.vermais-btn {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    padding: 0;
+}

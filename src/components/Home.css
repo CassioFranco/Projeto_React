@@ -1,0 +1,71 @@
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
+
+.card {
+  width: 300px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.album .container {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  justify-content: center;
+}
+
+.teste {
+  margin-right: 15px;
+}
+
+.movie-description {
+  max-height: 4.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  color: #888888 !important;
+  font-size: 15px !important;
+}
+
+.container {
+  color: white;
+
+}
+
+.voltar {
+  color: #e9292c;
+}
+
+
+.favorite-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-right: 15px;
+}
+
+.favorite-icon {
+  width: 24px;
+  height: 24px;
+}
+
+
+.vermais-btn {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  padding: 0;
+}
